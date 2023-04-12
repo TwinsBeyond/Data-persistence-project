@@ -106,6 +106,7 @@ public class MainManager : MonoBehaviour
             BestScore = CurrentScore;
 
             BestPlayerNameAndScore.text = $"Best Score - {BestPlayer}: {BestScore}";
+            SaveGameRank(BestPlayer, BestScore);
         }
     }
 
